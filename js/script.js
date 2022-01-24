@@ -15,9 +15,7 @@ $(window).load(function() {
 
 $(document).ready(function() {
 		//animated logo
-		$(".navbar-brand").hover(function () {
-			$(this).toggleClass("animated shake");
-		});
+		<!--$(".navbar-brand").hover(function () {$(this).toggleClass("animated shake");});-->
 		
 		//animated scroll_arrow
 		$(".img_scroll").hover(function () {
