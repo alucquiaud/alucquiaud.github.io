@@ -1,0 +1,143 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="A. Lucquiaud">
+    <meta name="author" content="">
+
+    <title>Analytical Derivations of Critical Tolerance Thresholds in the Schelling Model</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="../css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="../css/custom.css" rel="stylesheet">
+	<link href="../css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.theme.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="../css/magnific-popup.css"> 
+	
+	<script src="../js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+	<script src="../js/PIE_IE9.js"></script>  
+	<script src="../js/PIE_IE678.js"></script>  
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+
+	
+	<!-- FullScreen
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">A. Lucquiaud</h1>
+			<h2 class="h2_home wow fadeIn" data-wow-delay="0.5s"> Page en construction </h2>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">  &middot; </h3>
+			<ul class="list-inline intro-social-buttons">
+			</ul>
+		</div>    
+        <!-- /.container 
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#contact"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div> 
+    </div>-->
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="../index.html#home"><b>A. Lucquiaud</b></a>
+			</div>
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="menuItem"><a href="../index.html#recherche">Recherche</a></li>
+					<li class="menuItem"><a href="../index.html#enseignement"> Enseignement</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav> 
+	
+    <div id ="talk" class="content-section-a">
+
+        <div class="container">
+		
+			<div class="row">
+			
+				<div class="col-sm-12 wow fadeInLeftBig"  data-animation-delay="200">   
+			
+					<h2 class="section-heading">Analytical Derivations of Critical Tolerance Thresholds in the Schelling Model</h2>
+				
+					<h3 style="color:#32465A;"> A. Lucquiaud, J. Randon-Furling</h3><br>
+					<a class="menuItem" href="https://ccs2021.univ-lyon1.fr/">Conference on Complex Systems 2021</a>, Lyon, France (26/11/2021)<br><br>
+					
+                    
+					<b>Abstract</b><br>
+
+					
+						<it>Schelling's is one of the oldest and most famous agent-based models in the social sciences.
+						It reveals the emergence of macroscopic segregation in a system of agents belonging to two groups and interacting at a microscopic level on a 2D lattice. The system’s behaviour has been studied extensively through numerical simulations, leading to phase diagrams that show which stationary macrostate (mixed or segregated) is reached depending on the values of a handful of parameters. The most important one is the so-called “tolerance” T: an agent will 
+						move to another location if a fraction strictly larger than T of their neighbours belongs to the other group.</it><br>
+						
+						<it>Consistent with Schelling’s counter-intuitive observations, a first phase transition – from low tolerance mixed equilibria to segregated macrostate – occurs around T=1/2 when vacant sites are scarce, or when unsatisfied agents are allowed to trade positions, in a Kawasaki-type exchange process. We derive this transition in a dynamical setup, using Markov chain aggregation techniques: to some extent, the system’s behaviour resembles that of an urn from which pairs of agents would be drawn and swapped. This analogy enables us to compute the transition matrix and invariant distribution, which we compare to the empirical study of attractor states.</it><br>
+						
+						<it>Since Schelling’s seminal work, the existence of a second phase transition has also been confirmed at a value Tc of the tolerance with 1/2≤Tc≤3/4 – the exact value varies with the	local neighbourhood size. We build upon previous works that focus on the formation of homogeneous clusters and use asymptotic results of percolation theory in infinite systems with infinitely large neighbourhoods. In a simpler, finite setup, mimicking nucleation models
+						from statistical physics, we derive analytically the value of Tc from simple conditions on the stability of small homogeneous clusters, that act as nuclei in the transition toward segregation. For 1/2&lt;T&lt;Tc, the stationary state is one of separation between homogeneous clusters, while for T&gt;Tc it is one of integration, as observed on the wealth of existing simulation results.</it>
+					
+					</div>
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>	
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script>
+</body>
+
+</html>
