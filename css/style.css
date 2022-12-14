@@ -222,7 +222,12 @@ a {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
-a:hover,
+
+a:hover {
+		color: #1abc9c;
+		border-bottom-color: transparent;
+	}
+	
 a:focus {
   color: #34495e;
   text-decoration: none;
