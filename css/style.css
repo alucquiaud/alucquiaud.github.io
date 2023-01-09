@@ -319,7 +319,7 @@ h4,
   font-size: 15px;
 }
 p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.72222;
   margin: 0 0 15px;
 }
@@ -329,7 +329,7 @@ li{list-style-type:none}
 .lead {
   margin-bottom: 20px;
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.46428571;
   font-weight: 300;
 }
@@ -2254,10 +2254,10 @@ select[multiple].navbar-form .btn {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .navbar-default {
-  background-color: #ecf0f1;
+  background-color: #34495e;
 }
 .navbar-default .navbar-brand {
-  color: #34495e;
+  color: #fff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -2265,7 +2265,7 @@ select[multiple].navbar-form .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle:before {
-  color: #34495e;
+  color: #fff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -2281,7 +2281,7 @@ select[multiple].navbar-form .btn {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #34495e;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
