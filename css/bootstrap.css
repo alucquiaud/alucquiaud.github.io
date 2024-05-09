@@ -57,6 +57,7 @@ b,
 strong {
   font-weight: bold;
 }
+			
 dfn {
   font-style: italic;
 }
@@ -3693,6 +3694,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: -15px;
   margin-left: -15px;
 }
+
+
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
@@ -5586,6 +5589,9 @@ button.close {
     bottom: 20px;
   }
 }
+
+
+
 .clearfix:before,
 .clearfix:after,
 .container:before,
